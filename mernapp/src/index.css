@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#carousel{
+  max-height: 400px;
+
+}
+#carouselExampleFade {
+  width: 100vw; /* Set width to 100% of the viewport width */
+  height: 90vh; /* Set height to 100% of the viewport height */
+   /* Hide overflow to prevent horizontal scrolling */
+}
+
+#carouselExampleFade img {
+  width: 100%; /* Make sure images take 100% width of the carousel container */
+  height: 670px; /* Make sure images take 100% height of the carousel container */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  filter: brightness(50%);
+}
+
+/* Additional styles for smaller screens (optional) */
+
+
